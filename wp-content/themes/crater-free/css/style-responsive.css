@@ -1,0 +1,355 @@
+
+@media only screen and (max-width: 480px) {  
+
+    .dropdown-menu{
+        -webkit-box-shadow:none;
+        box-shadow:none;
+        border: 0;
+    }
+
+    .dropdown-menu a:hover{
+        color: #555;
+    }
+
+    .dropdown-menu > .active > a, 
+    .dropdown-menu > .active > a:hover, 
+    .dropdown-menu > .active > a:focus{
+        background: none;
+        color: #555;
+    }
+
+    .slide-bg-section h1{
+        font-size: 20px !important
+    }
+
+    .slide-bg-section p{
+        width: 100% !important;
+    }
+
+    .slide-bg-section .read-more{
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .slide-bg-section .read-more:last-child {
+       margin-left: 0;
+    }
+
+    article.post{
+        width: 100% !important;
+        display: block !important;
+    }
+
+    .post-tags a{
+        margin-bottom: 10px;
+    }
+
+    .footer-widgets-wrapper .section{
+        margin-bottom: 50px;
+    }
+
+    .top-left-sidebar {
+        text-align: center;
+    }
+
+    .top-right-sidebar {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #menu-social {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .topbar-text{
+        text-align: center;
+    }
+
+    header.style1.fixed.crater-menu-wrapper{
+        display: none;
+    }
+
+    #blog-section article {
+        padding: 20px 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+
+    .dropdown-menu > li > a{
+        padding: 10px 10px;
+    }
+
+    header .navbar-collapse li{
+        padding: 0;
+    }
+  
+    .site-description{
+        margin-left: 20px;
+    } 
+
+    .style1 nav ul.nav{
+        display: block;
+    }
+
+    #crater-main-menu-wrapper .nav>li {
+        padding: 0;
+    }
+
+    header.crater-menu-wrapper #crater-main-menu-wrapper .nav>li>a {
+        z-index: 0;
+    }
+
+    #crater-main-menu-wrapper .nav>li>a{
+        color: #555;
+    }
+
+    #crater-main-menu-wrapper .nav>li {
+        padding: 0 !important;
+    }
+
+    #crater-main-menu-wrapper .nav>li.active {
+        background: #fff;
+        border-bottom: none;
+    }
+
+    #crater-main-menu-wrapper .nav>li.active a {
+        color: #555;
+    }
+
+    #crater-main-menu-wrapper .nav>li.active {
+        background: none !important;
+        border-bottom: none !important;
+    }
+
+    #crater-main-menu-wrapper .nav>li:hover {
+        border-bottom: none !important;
+    }
+
+    header.style1.fixed.crater-menu-wrapper{
+        display: none;
+    }
+
+    #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu li,
+    header.style2 #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu,
+    header.style1 #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu{
+        background: none !important;
+    }
+
+    #crater-main-menu-wrapper .nav>li>a, 
+    #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu li a, 
+    .navbar-toggle{
+        color: #555 !important;
+    }
+
+    .navbar-nav{
+        margin: 0 !important;
+    }
+
+    ul.nav{
+        margin-left: 0 !important;
+    }
+
+}    
+
+
+@media (max-width: 991px) {
+
+    #crater-main-menu-wrapper .navbar-toggle {
+        display: block;
+        margin: 0 0 20px 0;
+        padding: 0;
+        min-height: 28px;
+        cursor: pointer;
+    }
+
+    .crater-main-menu.page .navbar-toggle {
+        display: block;
+        margin: 0 0 20px 0;
+        padding: 0;
+        min-height: 28px;
+        cursor: pointer;
+    }
+
+    #crater-main-menu-wrapper .nav li.dropdown .fa {
+        display: block;
+    }
+
+    #crater-main-menu-wrapper .navbar-toggle .icon-bar {
+        width: 26px;
+        margin-top: 5px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .menu-style-three #crater-main-menu-wrapper .navbar-toggle .icon-bar {
+        background: #0dda8f;
+    }
+    
+    #crater-main-menu-wrapper .navbar-toggle .icon-bar:nth-child(3) {
+        opacity: 0;
+    }
+  
+    #crater-main-menu-wrapper .navbar-toggle.collapsed .icon-bar:nth-child(3) {
+        opacity: 1;
+    }
+  
+    #crater-main-menu-wrapper .navbar-toggle .icon-bar:nth-child(2) {
+        transform:rotate(45deg);
+        transform-origin:0%;
+        margin: 0 0 9px 0;
+    }
+
+    #crater-main-menu-wrapper .navbar-toggle .icon-bar:nth-child(4) {
+        transform:rotate(-45deg);
+        transform-origin:0%;
+    }
+
+    #crater-main-menu-wrapper .navbar-toggle.collapsed .icon-bar:nth-child(2) {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    #crater-main-menu-wrapper .navbar-toggle.collapsed .icon-bar {
+        transform:none !important;
+        margin-top: 5px;
+    }
+  
+    #crater-main-menu-wrapper .navbar-collapse {
+        border: none;
+        background: #fff;
+        padding: 0;
+        max-height: 400px;
+        -webkit-box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.25);
+        box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.25);
+    }
+
+    #crater-main-menu-wrapper .navbar-collapse.collapse {
+        overflow-y:auto !important;
+    }
+
+    #crater-main-menu-wrapper .navbar-collapse.collapse {
+        display: none!important;
+    }
+  
+    #crater-main-menu-wrapper .collapse.in{
+        display:block !important;
+    }
+
+    #crater-main-menu-wrapper .navbar-header {
+        float: none;
+    }
+
+    #crater-main-menu-wrapper .nav>li {
+        float: none;
+        display: block;
+    }
+
+    #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu,
+    #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu .dropdown-menu{
+        width: 100%;
+        opacity: 1;
+        display: none;
+        position: static;
+        -webkit-transform:none;
+        transform:none;
+        -webkit-transition:none;
+        transition:none;
+    }
+
+    #crater-main-menu-wrapper .nav>li>a {
+        border-top: 1px solid rgba(0,0,0,0.05);
+        padding: 0 15px;
+        line-height: 50px;
+        font-weight: normal;
+    }
+
+    #crater-main-menu-wrapper .nav>li:last-child>a {
+        border-bottom:none;
+    }
+
+    #crater-main-menu-wrapper .nav>li {
+        padding: 0;
+    }
+
+      #crater-main-menu-wrapper {
+        float: none;
+        width: 100%;
+    }
+
+    .style1 nav ul.nav{
+        margin-left: 0;
+    }
+
+    #crater-main-menu-wrapper .nav>li:hover {
+        border-bottom: none;
+    }
+
+    header.style1.fixed.crater-menu-wrapper{
+        display: none;
+    }
+
+    li.menu-header-search{
+        display: none !important;
+    }
+
+    /* toggle menu */
+    #crater-main-menu-wrapper .nav>li.active a {
+        color: #555 !important;
+    }
+
+    #crater-main-menu-wrapper .nav>li.active {
+        background: none !important;
+        border-bottom: none !important;
+    }
+
+    #crater-main-menu-wrapper .nav>li:hover {
+        border-bottom: none !important;
+    }
+
+    header.style1.fixed.crater-menu-wrapper{
+        display: none;
+    }
+
+    #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu li,
+    header.style2 #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu,
+    header.style1 #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu{
+        background: none !important;
+    }
+
+    #crater-main-menu-wrapper .nav>li>a, 
+    #crater-main-menu-wrapper .nav>li.dropdown .dropdown-menu li a, 
+    .navbar-toggle{
+        color: #555 !important;
+    }
+
+    .navbar-nav{
+        margin: 0 !important;
+    }
+
+    ul.nav{
+        margin-left: 0 !important;
+    }
+
+    #crater-main-menu-wrapper .nav>li{
+        padding: 0 !important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    
+    #crater-main-menu-wrapper .nav>li.dropdown:hover .dropdown-menu {
+        opacity: 1;
+        border: 1px solid #e8e8e8;
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+}
+
+

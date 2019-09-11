@@ -1,0 +1,475 @@
+/*
+Theme Name: Unos Publisher
+Template: unos
+Author: wpHoot
+Author URI: https://wphoot.com/
+Theme URI: https://wphoot.com/themes/unos/
+Version: 1.0.2
+Description: Blogging and Magazine style child theme with minimal white design. Unos Publisher is translation and multi-lingual ready with SEO optimized code which works with all popular plugins. Theme support is available at https://wphoot.com/support/
+License: GNU General Public License 3.0
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Tags: grid-layout, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template, microformats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, news
+Text Domain: unos-publisher
+*/
+/**
+ * -----------------------------------------------------------------------------------------------
+ * PLEASE DO NOT MODIFY THIS FILE DIRECTLY UNLESS YOU KNOW WHAT YOU ARE DOING
+ * 
+ ** 'Additional Custom CSS' / 'Custom CSS' section in Customize Screen
+ *  - This is the preferred location for small css snippets
+ *  - These CSS rules are given highest priority
+ *  - Your customizations remains unaffected by Theme updates (IMPORTANT!)
+ * -----------------------------------------------------------------------------------------------
+ */
+/************* Headings *************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.titlefont {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/*** Buttons Default ***/
+body.wordpress input[type="submit"],
+body.wordpress #submit,
+body.wordpress .button {
+  background: #ffffff;
+  color: #000000;
+  border: solid 1px #000000;
+}
+body.wordpress input[type="submit"]:hover,
+body.wordpress #submit:hover,
+body.wordpress .button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+#topbar {
+  overflow: inherit;
+}
+/**
+ * Header (Topbar, Header, Main Nav Menu)
+ * ========================================================
+ */
+/************* Topbar *************/
+#topbar.js-search .searchform.expand .searchtext {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+}
+/************* Header Layout *************/
+#header {
+  border-bottom: solid 1px #000000;
+}
+#header.header-layout-secondary-bottom {
+  border-bottom: none;
+}
+#header-primary,
+#header-supplementary,
+.below-header {
+  border-bottom: none;
+}
+#header-supplementary.with-menubg {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+}
+@media only screen and (max-width: 969px) {
+  #header-aside {
+    padding: 0;
+    border-top: none;
+  }
+  .header-aside-search.js-search .searchform input.searchtext {
+    background: rgba(0, 0, 0, 0.04);
+  }
+}
+/************* Logo *************/
+#site-logo {
+  margin: 30px 0;
+}
+/* Text Logo */
+#site-title {
+  font-family: Vidaloka, "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+/* Custom Text */
+.site-title-heading-font {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/************* Nav Menus *************/
+.nav-menu {
+  position: relative;
+  bottom: -1px;
+}
+.menu-items {
+  /* Current & Hover */
+  /* Title & Description */
+}
+.menu-items li {
+  position: relative;
+}
+.menu-items > li.current-menu-item:after,
+.menu-items > li.current-menu-ancestor:after,
+.menu-items > li:hover:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  border-bottom: solid 3px #000000;
+}
+@media only screen and (max-width: 969px) {
+  .mobilemenu-inline .menu-items {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  }
+  .menu-items > li.current-menu-item,
+  .menu-items > li.current-menu-ancestor,
+  .menu-items > li:hover {
+    background: rgba(0, 0, 0, 0.04);
+  }
+  .menu-items > li.current-menu-item:after,
+  .menu-items > li.current-menu-ancestor:after,
+  .menu-items > li:hover:after {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: auto;
+    display: block;
+    border-left: solid 3px #000000;
+  }
+}
+@media only screen and (min-width: 970px) {
+  .header-supplementary-center .menu-items > li > a {
+    text-align: center;
+  }
+  .header-supplementary-center .nav-menu .sf-menu.sf-arrows > li > a.sf-with-ul {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .header-supplementary-center .sf-menu.sf-arrows .sf-with-ul .menu-title:after {
+    position: relative;
+    right: -5px;
+    margin: 0;
+    top: 0;
+  }
+  .header-supplementary-center .sf-menu.sf-arrows ul .sf-with-ul .menu-title:after {
+    position: absolute;
+    top: 50%;
+    right: -2px;
+    margin-top: -0.5em;
+  }
+}
+/************* Menu Side Header *************/
+.header-supplementary-center {
+  text-align: center;
+}
+.header-supplementary-center .menu-area-wrap {
+  display: inline-flex;
+  padding: 0 20px;
+}
+.header-supplementary .menu-area-wrap {
+  border-bottom: solid 1px #000000;
+}
+.with-menubg .menu-area-wrap {
+  border-bottom: none;
+}
+@media only screen and (max-width: 969px) {
+  .header-supplementary-center .menu-area-wrap {
+    display: block;
+  }
+  .menu-side-box {
+    border-top: none;
+  }
+}
+/************* Aside Header *************/
+/************* Below Header *************/
+/**
+ * Main #Content
+ * ========================================================
+ */
+/** Use 'entry-content'/'entry-the-content' classes to style posts on single post pages specifically **/
+/************* Loop Meta *************/
+.main.fullwidth > .loop-meta-wrap {
+  position: relative;
+  text-align: center;
+}
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-default,
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-stretch,
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-both {
+  background: none;
+  border-top: solid 1px rgba(0, 0, 0, 0.33);
+  border-bottom: none;
+}
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-default:after,
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-stretch:after,
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-both:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 3px;
+  background: none;
+  font: 0/0 a;
+  visibility: visible;
+  display: block;
+}
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-incontent,
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-none {
+  border-top: solid 1px rgba(0, 0, 0, 0.33);
+  border-bottom: none;
+}
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-incontent:after,
+.main.fullwidth > .loop-meta-wrap.pageheader-bg-none:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 3px;
+  background: none;
+  font: 0/0 a;
+  visibility: visible;
+  display: block;
+}
+.main.fullwidth > .loop-meta-wrap#loop-meta.loop-meta-imgwrap .loop-meta {
+  background: none;
+  color: inherit;
+  display: block;
+  margin: 0;
+}
+.main.fullwidth > .loop-meta-wrap#loop-meta.loop-meta-imgwrap .loop-meta h1,
+.main.fullwidth > .loop-meta-wrap#loop-meta.loop-meta-imgwrap .loop-meta h2,
+.main.fullwidth > .loop-meta-wrap#loop-meta.loop-meta-imgwrap .loop-meta h3,
+.main.fullwidth > .loop-meta-wrap#loop-meta.loop-meta-imgwrap .loop-meta h4,
+.main.fullwidth > .loop-meta-wrap#loop-meta.loop-meta-imgwrap .loop-meta h5,
+.main.fullwidth > .loop-meta-wrap#loop-meta.loop-meta-imgwrap .loop-meta h6,
+.main.fullwidth > .loop-meta-wrap#loop-meta.loop-meta-imgwrap .loop-meta a {
+  color: inherit;
+}
+/*** Featured Image without Title (title inline with content) ***/
+.entry-featured-img-headerwrap {
+  height: 400px;
+}
+/************* Content Wrap *************/
+.main.fullwidth > .content .loop-meta-wrap {
+  margin-bottom: 1em;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background: none;
+}
+.main.fullwidth > .content .loop-meta-wrap > .hgrid {
+  padding: 0;
+}
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-default,
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-stretch,
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-none {
+  background: rgba(0, 0, 0, 0.04);
+  padding: 1em 1.5em;
+  border: solid rgba(0, 0, 0, 0.14);
+  border-width: 1px 2px 2px 1px;
+  text-align: center;
+}
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-default:after,
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-stretch:after,
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-none:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 3px;
+  background: none;
+  font: 0/0 a;
+  visibility: visible;
+  display: block;
+}
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-incontent,
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-both {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 1em 1.5em;
+  border: solid rgba(0, 0, 0, 0.14);
+  border-width: 1px 2px 2px 1px;
+}
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-incontent:after,
+.main.fullwidth > .content .loop-meta-wrap.pageheader-bg-both:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 3px;
+  background: none;
+  font: 0/0 a;
+  visibility: visible;
+  display: block;
+}
+.main.fullwidth > .content .loop-meta {
+  padding: 0;
+}
+.main.fullwidth > .content .loop-title {
+  font-size: 2.3333em;
+}
+/************* Entry Meta Byline (Singular Post Page) *************/
+.main.fullwidth .entry-footer .entry-byline {
+  line-height: 1.3333em;
+  text-transform: uppercase;
+  border-bottom: solid 1px;
+  display: block;
+  position: relative;
+}
+.main.fullwidth .entry-footer .entry-byline-block {
+  display: block;
+}
+.main.fullwidth .entry-footer .entry-byline-block:after {
+  content: "";
+  margin: 0 15px;
+}
+.main.fullwidth .entry-footer .entry-byline a {
+  color: inherit;
+}
+.main.fullwidth .entry-footer .entry-byline a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.main.fullwidth .entry-footer .entry-byline-label {
+  margin-right: 5px;
+}
+.main.fullwidth .entry-footer .entry-byline-cats a {
+  background: rgba(0, 0, 0, 0.14);
+  padding: 5px 7px;
+  margin: 0 8px 0 0;
+}
+.main.fullwidth .entry-footer .entry-byline-tags a {
+  background: rgba(0, 0, 0, 0.14);
+  padding: 5px 7px;
+  margin: 0 8px 0 0;
+}
+/************* <main> #content *************/
+.main.fullwidth .content-wrap .header-side .widget,
+.main.fullwidth .content-wrap .menu-side .widget,
+.main.fullwidth .content-wrap .topbar .widget,
+.main.fullwidth .content-wrap .below-header .widget {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+.main.fullwidth .content-wrap .header-side .widget:after,
+.main.fullwidth .content-wrap .menu-side .widget:after,
+.main.fullwidth .content-wrap .topbar .widget:after,
+.main.fullwidth .content-wrap .below-header .widget:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 3px;
+  background: none;
+  font: 0/0 a;
+  visibility: visible;
+  display: block;
+}
+.main.fullwidth .content-wrap .header-side .widget > a,
+.main.fullwidth .content-wrap .menu-side .widget > a,
+.main.fullwidth .content-wrap .topbar .widget > a,
+.main.fullwidth .content-wrap .below-header .widget > a {
+  text-decoration: underline;
+}
+.main.fullwidth .content-wrap .header-side .widget .widget-title,
+.main.fullwidth .content-wrap .menu-side .widget .widget-title,
+.main.fullwidth .content-wrap .topbar .widget .widget-title,
+.main.fullwidth .content-wrap .below-header .widget .widget-title {
+  font-size: inherit;
+  color: inherit;
+  background: none;
+}
+/** Use 'entry-content'/'entry-the-content' classes to style posts on single post pages specifically **/
+/************* Loop Meta *************/
+#below-header + .main > .loop-meta-wrap,
+#below-header + .main > .entry-featured-img-headerwrap {
+  margin-top: 25px;
+  /*@widgetMargin/2*/
+}
+/************* Entry Meta Byline (Singular Post Page) *************/
+.entry-byline {
+  font-size: 0.86666667em;
+  text-transform: uppercase;
+}
+/************* <main> #content *************/
+.main > .main-content-grid:first-child {
+  margin-top: 25px;
+  /*@widgetMargin/2*/
+}
+/************* Read More *************/
+.entry-grid .more-link {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.content-frontpage > .frontpage-area-boxed:first-child {
+  margin-top: 25px;
+  /*@widgetMargin/2*/
+}
+.frontpage-widgetarea.frontpage-area-boxed:first-child .hootkitslider-widget {
+  margin: 0;
+}
+/*Overwrite parent css since we are now reducing first boxed area margin-top*/
+/************* Sidebars *************/
+.sidebar .widget-title,
+.sub-footer .widget-title,
+.footer .widget-title {
+  background: #ffffff;
+  color: #000000;
+  border: solid 1px #000000;
+  padding: 5px;
+  -webkit-transition: color 0.3s ease-in, background-color 0.3s linear;
+  -moz-transition: color 0.3s ease-in, background-color 0.3s linear;
+  -o-transition: color 0.3s ease-in, background-color 0.3s linear;
+  transition: color 0.3s ease-in, background-color 0.3s linear;
+}
+.sidebar .widget:hover .widget-title,
+.sub-footer .widget:hover .widget-title,
+.footer .widget:hover .widget-title {
+  background: #000000;
+  color: #ffffff;
+}
+/************* WordPress Widgets *************/
+/**
+ * Theme and WordPress Plugins
+ * ========================================================
+ */
+/************* Light Gallery *************/
+/************* Woocommerce *************/
+/************* Newsletter *************/
+/*** Newsletter ***/
+.widget_newsletterwidget,
+.widget_newsletterwidgetminimal {
+  background: rgba(0, 0, 0, 0.04);
+}
+/**
+ * Footer
+ * ========================================================
+ */
+/************* Sub Footer *************/
+.sub-footer {
+  border-top: solid 1px rgba(0, 0, 0, 0.14);
+}
+/************* Footer *************/
+/************* Post Footer *************/
+.post-footer {
+  padding: 0;
+  border-top: none;
+}
+.post-footer .credit {
+  border-top: solid 1px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  min-width: 70%;
+  margin: 0;
+  padding: 1.5em 0;
+}
+/************* Sticky Header *************/
+@media only screen and (min-width: 970px) {
+  #header.stuck {
+    -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  }
+}

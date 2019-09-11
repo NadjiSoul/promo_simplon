@@ -1,0 +1,54 @@
+/**
+ * Hootkit Plugin Styles
+ * ========================================================
+ */
+.cta-subtitle {
+  text-transform: uppercase;
+  font-size: 0.93333333em;
+  line-height: 1.42857143em;
+}
+/**
+ * Widget - Social Icons
+ * ========================================================
+ */
+/************* Social Icons Widget *************/
+.social-icons-small .social-icons-icon {
+  font-size: 17px;
+}
+.social-icons-medium .social-icons-icon {
+  font-size: 22px;
+}
+.social-icons-large .social-icons-icon {
+  font-size: 27px;
+}
+.social-icons-huge .social-icons-icon {
+  font-size: 32px;
+}
+.social-icons-icon {
+  color: #000000;
+  background: #ffffff;
+  /*border: solid 1px @accentColor;*/
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.4);
+}
+.social-icons-invert .social-icons-icon {
+  border: none;
+}
+/** Social Icon Hover **/
+.social-icons-icon:hover {
+  border-color: rgba(255, 255, 255, 0);
+}
+.post-gridunit-image {
+  height: 240px;
+}
+.post-gridunit-size2 .post-gridunit-image {
+  height: 480px;
+}
+@media only screen and (max-width: 969px) {
+  .post-gridunit-size2 {
+    margin-bottom: 4px;
+    padding-bottom: 0;
+    height: 240px;
+  }
+}

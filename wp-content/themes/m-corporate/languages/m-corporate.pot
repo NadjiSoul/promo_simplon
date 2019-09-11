@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mcorporate\n"
+"POT-Creation-Date: 2019-06-14 10:24+0000\n"
+"PO-Revision-Date: 2019-06-14 10:24+0000\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: admin <manishn19@gmail.com>\n"
+"Language: en\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.3.0; wp-5.2.1"
+
+#: 404.php:16
+msgid "Sorry... That page seems to be missing!."
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"We've been informed about it so we'll try to fix it straight away. In the "
+"meantime why not take a look at the links below to read an article."
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"Maybe you'll find something even more amazing than what you were originally "
+"looking for :-)"
+msgstr ""
+
+#. %s: post title
+#: comments.php:19
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:24
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:17
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:58
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:59
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:110
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:112
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: header.php:65
+msgid "Logo"
+msgstr ""
+
+#: header.php:66
+msgid "bootstrap template"
+msgstr ""
+
+#: header.php:67
+msgid "Shine with MTheme"
+msgstr ""
+
+#: header.php:69
+msgid "#!"
+msgstr ""
+
+#: header.php:69
+msgid "Read More"
+msgstr ""
+
+#: header.php:72
+msgid "Scroll"
+msgstr ""
+
+#: index.php:22
+msgid "Pages:"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:32
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:33
+msgid ""
+"We're Sorry, but no results found for your search. Please try again with "
+"some different keywords."
+msgstr ""
+
+#: template-parts/content-default.php:24
+msgid "By"
+msgstr ""
+
+#: template-parts/content-default.php:27
+msgid "Read More >"
+msgstr ""
+
+#. Name of the theme
+msgid "M Corporate"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"A basic corporate theme using the Bootstrap framework. With a focus on "
+"business sites, it features multiple sections on the front page as well as "
+"widgets, navigation and social menus, a logo, and more."
+msgstr ""
+
+#. Author of the theme
+msgid "Manish Negi"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.linkedin.com/in/manishn19"
+msgstr ""

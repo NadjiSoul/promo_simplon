@@ -1,0 +1,126 @@
+/*
+ * Theme Name: Crater Free
+ *
+ * Layout: Content-Editor-Style 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppings');
+
+/********************************************************************/
+/***** WordPress Gutenberg editor stylesheet by Robin Roelofsen *****/
+/********************************************************************/
+
+/***** Styling working area *****/
+
+/* Width of the editor column */
+body.gutenberg-editor-page .edit-post-visual-editor,
+body.gutenberg-editor-page .editor-post-title__block,
+body.gutenberg-editor-page .editor-default-block-appender,
+body.gutenberg-editor-page .editor-block-list__block {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1128px !important; /* width of page (1100px) plus 2 x 14px margin */
+}
+
+/* Set left margin for post text editor only to 20px, no right margin */
+body.gutenberg-editor-page .edit-post-text-editor {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+/* Width of "wide" blocks */
+body.gutenberg-editor-page .editor-block-list__block[data-align="wide"] {
+    max-width: 1400px;
+}
+
+/* Width of "full-width" blocks */
+body.gutenberg-editor-page .editor-block-list__block[data-align="full"] {
+    max-width: none;
+}
+
+
+
+/***** Styling content *****/
+
+/* Style overall content */
+.editor-block-list__layout .editor-block-list__block,
+.editor-block-list__layout .editor-block-list__block p {
+	color: #3a3a3a;
+    font-family: "Poppings", sans-serif;*/
+	font-size: 18px;
+}
+
+/* Style links */
+.editor-block-list__layout a {
+	color: #1e73be;
+}
+
+.editor-block-list__layout a:hover {
+	color: #639dd3;
+}
+
+/* Style headings */
+
+.editor-post-title__block .editor-post-title__input {
+    font-family: "Poppings", sans-serif; /* font family of the post title */
+}
+
+.editor-post-title__block .editor-post-title__input,
+.editor-block-list__layout .editor-block-list__block h1 {
+	color: #3a3a3a;
+	font-size: 34px;
+	font-weight: 300;
+}
+
+.editor-block-list__layout .editor-block-list__block h2 {
+	color: #555555;
+	font-size: 28px;
+	font-weight: 300;
+}
+
+.editor-block-list__layout .editor-block-list__block h3 {
+	color: #666666;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.editor-block-list__layout .editor-block-list__block h4 {
+	color: #888888;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+
+
+/***** Special styling *****/
+
+/* Style code and code blocks font size and line height */
+.wp-block-code .editor-plain-text {
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+/* Style keyboard strokes to resemble keyboard keys */
+.editor-block-list__layout kbd {
+	background: #eaeaea;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 0 .1em;
+	padding: .25em;
+}
+
+/* Style block quote block */
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	background-color: rgba(0,0,0,0.03);
+	border-left: 5px solid rgba(0,0,0,0.1);
+	font-style: italic;
+	padding: 20px;
+}
+
+/* Style block quote citation text */
+.wp-block-quote__citation {
+	color: #777777;
+	display: block;
+	font-size: 14px;
+	font-style: italic;
+}
