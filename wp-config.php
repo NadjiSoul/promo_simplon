@@ -38,6 +38,7 @@ define( 'DB_CHARSET', 'utf8mb4' );
   */
 define('DB_COLLATE', '');
 
+define('FS_METHOD', 'direct');
 /**#@+
  * Clés uniques d’authentification et salage.
  *
